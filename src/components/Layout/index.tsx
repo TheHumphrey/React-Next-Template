@@ -6,7 +6,7 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = 'Portal - WAYDS' }: Props): React.ReactElement => (
+const Layout = ({ children }: Props): React.ReactElement => (
   <div>
     <Head>
       <meta charSet="utf-8" />
